@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import Header from './components/custom/Header'
+import Header from '@/components/layout/Header'
+import { Footer } from './components/layout/Footer'
 
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
 
       <Outlet />
       </main>
+      <Footer />
     </div>
   )
 }

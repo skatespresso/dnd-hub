@@ -3,7 +3,7 @@ import {
     TypographyH1,
     TypographyP,
  } from "@/components/ui/typography"
-import { ProjectCard } from "@/components/custom/ProjectCard"
+import { ProjectCard } from "@/components/ui/ProjectCard"
 
 export default function Contact() {
     return (
