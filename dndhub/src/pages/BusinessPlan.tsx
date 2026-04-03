@@ -1,7 +1,10 @@
 import { 
     TypographyH1,
+    TypographyH2,
+    TypographyLead,
     TypographyP,
  } from "@/components/ui/typography"
+ import { Button } from "@base-ui/react";
 import { About } from "@/components/About";
 import { Features } from "@/components/Features";
 
@@ -50,6 +53,15 @@ export default function BusinessPlan() {
                 features={myFeatures}
                 featureList={myFeatureList}
             />
+        <TypographyH2>Lösningen: En responsiv web-app som fungerar på mobila enheter (iOS/Android) och desktop (Mac/Windows) och fungerar som en social kampanj-hub för spelgruppen </TypographyH2>
+
+            <a href="https://canva.link/8y0wocvm5k9fe8t"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground px-4 py-2 text-sm font-medium hover:bg-primary/90 transition-colors"
+                >
+                Läs hela affärsplanen här
+            </a>
         </div>
     )
 };
