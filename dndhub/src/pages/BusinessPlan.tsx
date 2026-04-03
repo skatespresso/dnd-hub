@@ -4,7 +4,7 @@ import {
     TypographyLead,
     TypographyP,
  } from "@/components/ui/typography"
- import { Button } from "@base-ui/react";
+import { Visuals } from "@/components/Visuals";
 import { About } from "@/components/About";
 import { Features } from "@/components/Features";
 
@@ -62,6 +62,8 @@ export default function BusinessPlan() {
                 >
                 Läs hela affärsplanen här
             </a>
+        <Visuals />
+
         </div>
     )
 };
